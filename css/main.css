@@ -1,25 +1,30 @@
-.container {
-  max-width: 900px;
-  padding-left: 15px;
-  padding-right: 15px;
+main {
+  padding: 20px 0;
+}
+.introduction-para {
+  padding: 20px 0;
 }
 
-h4 {
-  margin-top: 25px;
-}
-.row {
-  margin-bottom: 20px;
-}
-.row .row {
-  margin-top: 10px;
-  margin-bottom: 0;
+.research-row {
+  padding: 20px 0;
 }
 
-hr {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.research-image {
+  width: 95%;
+  height: 150px;
 }
 
-.profile{
-	width:210px;
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+  .introduction-container .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .introduction-para {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
