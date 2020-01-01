@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- <link rel="shortcut icon" href="../../assets/ico/favicon.png"> -->
 
     <title>Seong Woo Han</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <!--<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=96_cPsU0hobTwkvz5TE65OElBK1GlwPvk51w9wGRAAQ"></script>-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -24,127 +23,109 @@
   </head>
 
   <body>
-    <div class="container">
-      <br>
-      
-      <h1>Seong Woo Han</h1>
-      <div class="row" style="padding: 0px 15px 0px 15px;">
-        <div class="col-sm-8">
-          <br>
-          I'm a senior math student at <a href="https://cims.nyu.edu//index.html" target="_blank">Courant Institute of Mathematical Sciences, New York University</a>.
-          I'm broadly interested in mathematical modeling, probabilistic inference, and machine learning applications in bioscience and healthcare. 
-          I am looking to explore understanding fariness and biases in machine learning and methods that improve the accuracy of models on minorities.
-          <br>
-          </p>
-            <p style="text-align:center">
-             <a href="mailto:swh324@nyu.edu">Email</a> &nbsp/&nbsp
-             <a href="https://github.com/seongwoohan">Github</a> &nbsp/&nbsp
-             <a href="https://twitter.com/seongwoohan29">Twitter</a> 
-          </p>
-        </div>
-        <div class="col-sm-4" style="padding: 15px 15px 15px 15px;">
-          <img class="profile" src="images/seongwoohan.jpg"/>
-        </div>
-      </div>
-
+    <main>
+      <div class="container">
+          <h1>Seong Woo Han</h1>
+          <section class="introduction-container">
+          <div class="row">
+            <div class="col-md-8 introduction-para">
+              I'm a senior math student at <a href="https://cims.nyu.edu//index.html" target="_blank">Courant Institute of Mathematical Sciences, New York University</a>.
+              I'm broadly interested in mathematical modeling, probabilistic inference, and machine learning applications in bioscience and healthcare. 
+              I am looking to explore understanding fariness and biases in machine learning and methods that improve the accuracy of models on minorities.
+              </p>
+                <p style="text-align:center">
+                  <a href="mailto:swh324@nyu.edu">Email</a> &nbsp/&nbsp
+                  <a href="https://github.com/seongwoohan">Github</a> &nbsp/&nbsp
+                  <a href="https://twitter.com/seongwoohan29">Twitter</a>
+                </p>
+            </div>
+            <div class="col-md-4" style="padding: 15px 15px 15px 15px;">
+              <img class="profile" src="images/seongwoohan.jpg"/>
+            </div>
+          </div>
+        </section>
+        
+  
+        <hr>
+  
+        <section class="research-container">
+          <h2>Research</h2>  
+        
+          <div class="row research-row">
+            <div class="col-md-4">
+              <img src='images/heart.png' class="research-image">
+            </div>
+            <div class="col-md-8">
+              <papertitle>Modeling Surgical Treatments of Refractory Pulmonary Hypertension</papertitle>
+              <p>
+                <strong>Seong Woo Han</strong>
+              </p>
+              <p>
+                <em>Senior Thesis</em> 
+              </p>
+              <p> Under guidance of Professor <a href="https://www.math.nyu.edu/faculty/peskin/" target="_blank">Charles Peskin</a>, my primary work is to design a mathematical model of proposed surgical treatments on Refractory Pulmonary Hypertension with Texas Children’s Hospital dataset. </p>
+            </div>
+          </div>
+  
+          <div class="row research-row">
+            <div class="col-md-4">
+              <img src='images/clinicalknockoffs.png' class="research-image">
+            </div>
+            <div class="col-md-8">
+              <a href="files/ClinicalKnockoffs_Han, Qaddoumi.pdf">
+                <papertitle>ClinicalKnockoffs: Identification of significant features for Hospital Readmission</papertitle>
+              </a>  
+              <p>Abed Qaddoumi, <strong>Seong Woo Han</strong></p>
+              <a href="files/ClinicalKnockoffs_Han, Qaddoumi.pdf">paper</a> 
+              <p> This paper aims to extract crucial information that predicts the rate of readmission of patients in 30 days based on the Multiparameter Intelligent Monitoring in Intensive Care (MIMIC-III) dataset, using the Deep Knockoffs Model. </p>
+            </div>
+          </div>
+  
+          <div class="row research-row">
+            <div class="col-md-4">
+              <img src='images/pca.png' class="research-image">
+            </div>
+            <div class="col-md-8">
+              <a href="files/MLCS.pdf">
+                <papertitle>Using Predictive Models for Tumor Classification and Recurrence</papertitle>
+              </a>
+              <p>Anand Bhave,<strong>Seong Woo Han</strong>, Hongji Li</p>
+              <em>Technical Report, 2017</em> 
+              <p>
+                <a href="files/ClinicalKnockoffs_Han, Qaddoumi.pdf">paper</a> / <a href="files/MLCSPoster.pdf">poster</a>
+              </p>
+              <p> This paper aims to develop a model built from features computed from a digitized image of a fine needle aspirate of a breast mass that predicts whether a given tumor sample is benign or malignant and redict whether the tumor is recurrent or not based on relevant features like time elapsed and other cell nuclei properties. </p>
+            </div>
+          </div>
+  
+          <div class="row research-row">
+            <div class="col-md-4">
+              <img src='images/dental.png' class="research-image">
+            </div>
+            <div class="col-md-8">
+              <a href="files/Dental Plaque.pdf">
+                <papertitle>A Data Science Solution to Dental Plaque</papertitle>
+              </a>
+              <p>Yunbin (Matteo) Zhang, Pat Sukhum, Young Sang Choi, <strong>Seong Woo Han</strong></p>
+              <em>Technical Report, 2016</em>  <br>
+              <a href="files/Dental Plaque.pdf">paper</a>
+              <p>This work quantifies the level of plaque in one’s mouth to allow for an accessible and automatic dental diagnostic by using average RGB/HSL values of pixels and indicate each picture of score of 0-5, 0 being the lowest and 5 being the highest. </p>
+            </div>
+          </div>
+        </section>
+        
       <hr>
+      </div> <!-- /container -->
+    </main>
 
-      <h2>Research</h2>
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="25">
-
-    <tr>
-      <td width="25%">
-        <img src='images/heart.png' width="180" height="150">
-      </td>
-      <td valign="top" width="75%">
-        <p>
-          
-            <papertitle>Modeling Surgical Treatments of Refractory Pulmonary Hypertension</papertitle>
-    </a>
-    <br>
-          <strong>Seong Woo Han</strong>
-    <br>
-      <em>Senior Thesis</em>  <br>
-
-        </p>
-        <p> Under guidance of Professor <a href="https://www.math.nyu.edu/faculty/peskin/" target="_blank">Charles Peskin</a>, my primary work is to design a mathematical model of proposed surgical treatments on Refractory Pulmonary Hypertension with Texas Children’s Hospital dataset. </p>
-      </td>
-    
-    
-    <tr>
-      <td width="25%">
-        <img src='images/clinicalknockoffs.png' width="180" height="150">
-      </td>
-      <td valign="top" width="75%">
-        <p>
-    <a href="files/ClinicalKnockoffs_Han, Qaddoumi.pdf">
-            <papertitle>ClinicalKnockoffs: Identification of significant features for Hospital Readmission</papertitle>
-    </a>
-    <br>
-          Abed Qaddoumi,
-          <strong>Seong Woo Han</strong>
-    <br>
-        <em>Technical Report, 2019</em>  <br>
-        
-        <a href="files/ClinicalKnockoffs_Han, Qaddoumi.pdf">paper</a> 
-        </p>
-        <p> This paper aims to extract crucial information that predicts the rate of readmission of patients in 30 days based on the Multiparameter Intelligent Monitoring in Intensive Care (MIMIC-III) dataset, using the Deep Knockoffs Model. </p>
-      </td>
-   
-    
-    <tr>
-      <td width="25%">
-        <img src='images/pca.png' width="180" height="150">
-      </td>
-      <td valign="top" width="75%">
-        <p>
-     <a href="files/MLCS.pdf">
-            <papertitle>Using Predictive Models for Tumor Classification and Recurrence</papertitle>
-    </a>
-    <br>
-          Anand Bhave,
-          <strong>Seong Woo Han</strong>,
-          Hongji Li
-    <br>
-        <em>Technical Report, 2017</em>  <br>
-          
-        <a href="files/MLCS.pdf">paper</a>
-        /
-        <a href="files/MLCSPoster.pdf">poster</a> 
-        </p>
-        <p> This paper aims to develop a model built from features computed from a digitized image of a fine needle aspirate of a breast mass that predicts whether a given tumor sample is benign or malignant and redict whether the tumor is recurrent or not based on relevant features like time elapsed and other cell nuclei properties. </p>
-      </td>
-        
-
-    <tr>
-      <td width="25%">
-        <img src='images/dental.png' width="180" height="150">
-      </td>
-      <td valign="top" width="75%">
-        <p>
-    <a href="files/Dental Plaque.pdf">
-            <papertitle>A Data Science Solution to Dental Plaque</papertitle>
-    </a>
-    <br>
-          Yunbin (Matteo) Zhang, 
-          Pat Sukhum,
-          Young Sang Choi,
-          <strong>Seong Woo Han</strong>
-    <br>
-        <em>Technical Report, 2016</em>  <br>
-          
-        <a href="files/Dental Plaque.pdf">paper</a>
-        </p>
-        <p>This work quantifies the level of plaque in one’s mouth to allow for an accessible and automatic dental diagnostic by using average RGB/HSL values of pixels and indicate each picture of score of 0-5, 0 being the lowest and 5 being the highest. </p>
-      </td> 
-      </table>
-
-    <hr>
-    
-      <footer>
+    <footer>
+      <div class="container">
         <p>Last update: Dec. 28, 2019</p>
-      </footer>
-    </div> <!-- /container -->
+      </div>
+    </footer>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
