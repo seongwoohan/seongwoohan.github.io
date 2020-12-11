@@ -30,7 +30,7 @@ header {
 }
 
 .posts {
-	font-size: 100%;
+	font-size: 50%;
 }
 
 .namelogo {
@@ -45,7 +45,7 @@ a.namelogo:hover {
 
 @media all {
 	html {
-		font-size: 18px;
+		font-size: 10px;
 	}
 	body>* {
 		font-size: 90%;
