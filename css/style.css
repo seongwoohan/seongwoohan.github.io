@@ -232,11 +232,12 @@ blockquote p {
 }
 
 .profile-picture {
-    max-width: 100%;
-    height: auto; /* Ensure the height adjusts to the aspect ratio */
-    width: auto; /* Let the browser handle the width based on the original aspect ratio */
-    position: relative;
-    float: right; /* Keeps the float behavior */
-    border-radius: 50%; /* Makes the image circular */
+    display: block;
+    max-width: 200px; /* Adjust this value to your preferred size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+    border-radius: 50%; /* Make it circular */
+    float: none; /* Remove floating if not needed */
 }
+
 
