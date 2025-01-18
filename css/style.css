@@ -233,11 +233,13 @@ blockquote p {
 
 .profile-picture {
     display: block;
-    max-width: 200px; /* Adjust this value to your preferred size */
-    height: auto; /* Maintain aspect ratio */
-    margin: 0 auto; /* Center the image */
-    border-radius: 50%; /* Make it circular */
-    float: none; /* Remove floating if not needed */
+    max-width: 200px; /* Keep the desired size */
+    height: auto; /* Maintain the aspect ratio */
+    float: right; /* Align the image to the right side */
+    margin-left: 20px; /* Add spacing between the image and text */
+    margin-bottom: 10px; /* Optional: Add spacing below the image */
+    border-radius: 50%; /* Keep the circular shape */
 }
+
 
 
